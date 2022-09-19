@@ -1,7 +1,8 @@
 {
-  "name": "components",
+  "name": "@tdotcode/components",
   "version": "0.1.0",
   "private": true,
+  "main":"./pages/_app.tsx",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

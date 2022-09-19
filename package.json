@@ -5,6 +5,10 @@
     "packages/*"
   ],
   "devDependencies": {
+    "craco": "^0.0.3",
     "lerna": "^5.5.1"
+  },
+  "scripts": {
+    "start": "lerna exec --scope @tdotcode/app -- yarn start"
   }
 }
